@@ -1,0 +1,75 @@
+2024-10-09 09:18:35,175 - INFO - Starting FHIR conversion process
+2024-10-09 09:18:35,176 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:18:35,176 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:18:35,177 - ERROR - Error parsing ObservationDateTime: does not match expected format
+2024-10-09 09:18:35,177 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:18:35,177 - INFO - Parsed DateTimeOfMessage: 2023-10-08T10:15:00Z
+2024-10-09 09:18:35,178 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:20:13,997 - INFO - Starting FHIR conversion process
+2024-10-09 09:20:13,999 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:20:13,999 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:20:13,999 - ERROR - Error parsing ObservationDateTime: does not match expected format
+2024-10-09 09:20:14,000 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:20:14,000 - INFO - Parsed DateTimeOfMessage: 2023-10-08T10:15:00Z
+2024-10-09 09:20:14,000 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:21:39,765 - INFO - Starting FHIR conversion process
+2024-10-09 09:21:39,765 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:21:39,765 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:21:39,765 - DEBUG - Attempting to parse date string: 202310080900
+2024-10-09 09:21:39,766 - DEBUG - Successfully parsed 202310080900 with format %Y%m%d%H%M
+2024-10-09 09:21:39,766 - ERROR - Error parsing ObservationDateTime: does not match expected format
+2024-10-09 09:21:39,766 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:21:39,766 - DEBUG - Attempting to parse date string: 202310081015
+2024-10-09 09:21:39,766 - DEBUG - Successfully parsed 202310081015 with format %Y%m%d%H%M
+2024-10-09 09:21:39,766 - INFO - Parsed DateTimeOfMessage: 2023-10-08T10:15:00Z
+2024-10-09 09:21:39,767 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:23:32,409 - INFO - Starting FHIR conversion process
+2024-10-09 09:23:32,410 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:23:32,410 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:23:32,410 - DEBUG - Attempting to parse date string: 202310080900
+2024-10-09 09:23:32,411 - DEBUG - Successfully parsed 202310080900 with format %Y%m%d%H%M
+2024-10-09 09:23:32,411 - ERROR - Error parsing ObservationDateTime: does not match expected format
+2024-10-09 09:23:32,411 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:23:32,411 - DEBUG - Attempting to parse date string: 202310081015
+2024-10-09 09:23:32,411 - DEBUG - Successfully parsed 202310081015 with format %Y%m%d%H%M
+2024-10-09 09:23:32,411 - INFO - Parsed DateTimeOfMessage: 2023-10-08T10:15:00Z
+2024-10-09 09:23:32,412 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:24:54,566 - INFO - Starting FHIR conversion process
+2024-10-09 09:24:54,566 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:24:54,566 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:24:54,566 - DEBUG - Attempting to parse date string: 202310080900
+2024-10-09 09:24:54,567 - DEBUG - Successfully parsed 202310080900 with format %Y%m%d%H%M
+2024-10-09 09:24:54,567 - DEBUG - Attempting to create FHIRDateTime with: 2023-10-08T09:00:00
+2024-10-09 09:24:54,567 - ERROR - Error setting effectiveDateTime: does not match expected format
+2024-10-09 09:24:54,567 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:24:54,568 - DEBUG - Attempting to parse date string: 202310081015
+2024-10-09 09:24:54,568 - DEBUG - Successfully parsed 202310081015 with format %Y%m%d%H%M
+2024-10-09 09:24:54,568 - DEBUG - Attempting to create FHIRInstant with: 2023-10-08T10:15:00Z
+2024-10-09 09:24:54,568 - INFO - Successfully set issued to: 2023-10-08T10:15:00Z
+2024-10-09 09:24:54,569 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:26:17,937 - INFO - Starting FHIR conversion process
+2024-10-09 09:26:17,937 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:26:17,937 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:26:17,937 - DEBUG - Attempting to parse date string: 202310080900
+2024-10-09 09:26:17,939 - DEBUG - Successfully parsed 202310080900 with format %Y%m%d%H%M
+2024-10-09 09:26:17,939 - DEBUG - Attempting to create FHIRDateTime with: 2023-10-08
+2024-10-09 09:26:17,939 - INFO - Successfully set effectiveDateTime to: 2023-10-08
+2024-10-09 09:26:17,939 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:26:17,939 - DEBUG - Attempting to parse date string: 202310081015
+2024-10-09 09:26:17,939 - DEBUG - Successfully parsed 202310081015 with format %Y%m%d%H%M
+2024-10-09 09:26:17,939 - DEBUG - Attempting to create FHIRInstant with: 2023-10-08T10:15:00Z
+2024-10-09 09:26:17,939 - INFO - Successfully set issued to: 2023-10-08T10:15:00Z
+2024-10-09 09:26:17,939 - INFO - FHIR resource has been created and saved to output_fhir.json
+2024-10-09 09:26:48,256 - INFO - Starting FHIR conversion process
+2024-10-09 09:26:48,256 - INFO - Creating FHIR DiagnosticReport...
+2024-10-09 09:26:48,256 - INFO - Parsing ObservationDateTime: 202310080900
+2024-10-09 09:26:48,256 - DEBUG - Attempting to parse date string: 202310080900
+2024-10-09 09:26:48,257 - DEBUG - Successfully parsed 202310080900 with format %Y%m%d%H%M
+2024-10-09 09:26:48,257 - DEBUG - Attempting to create FHIRDateTime with: 2023-10-08
+2024-10-09 09:26:48,257 - INFO - Successfully set effectiveDateTime to: 2023-10-08
+2024-10-09 09:26:48,257 - INFO - Parsing DateTimeOfMessage: 202310081015
+2024-10-09 09:26:48,257 - DEBUG - Attempting to parse date string: 202310081015
+2024-10-09 09:26:48,257 - DEBUG - Successfully parsed 202310081015 with format %Y%m%d%H%M
+2024-10-09 09:26:48,257 - DEBUG - Attempting to create FHIRInstant with: 2023-10-08T10:15:00Z
+2024-10-09 09:26:48,258 - INFO - Successfully set issued to: 2023-10-08T10:15:00Z
+2024-10-09 09:26:48,259 - INFO - FHIR resource has been created and saved to output_fhir.json

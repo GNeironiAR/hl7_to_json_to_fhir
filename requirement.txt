@@ -1,0 +1,12 @@
+# Python version
+Python>=3.6
+
+# External libraries
+fhirclient==3.2.0
+
+# Standard libraries (no need to install separately)
+# json
+# re
+# uuid
+# logging
+# datetime

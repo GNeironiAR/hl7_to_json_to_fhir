@@ -1,0 +1,193 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "id": "99e65bb4-9074-4e19-85dc-f592e83609ad",
+        "code": {
+          "coding": [
+            {
+              "code": "CBC",
+              "display": "HEMOGRAMA COMPLETO",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "effectiveDateTime": "2023-10-08",
+        "issued": "2023-10-08T10:15:00Z",
+        "result": [
+          {
+            "reference": "Observation/75fa90ca-5213-4d35-90f2-686ad111ce4b"
+          },
+          {
+            "reference": "Observation/987b3019-2a3d-4c6c-87dc-446d4aef5cb2"
+          },
+          {
+            "reference": "Observation/ea66d375-dfe7-4863-9ed3-9d52135f7676"
+          },
+          {
+            "reference": "Observation/3ef3b4bb-e0a1-495a-8fed-43852055e30f"
+          },
+          {
+            "reference": "Observation/13da71a2-79a9-425a-9d8b-a0a89ab3ea6e"
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "resourceType": "DiagnosticReport"
+      },
+      "request": {
+        "method": "POST",
+        "url": "DiagnosticReport"
+      }
+    },
+    {
+      "resource": {
+        "id": "75fa90ca-5213-4d35-90f2-686ad111ce4b",
+        "code": {
+          "coding": [
+            {
+              "code": "WBC",
+              "display": "LEUCOCITOS",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "10*3/uL",
+          "value": 7.5
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "987b3019-2a3d-4c6c-87dc-446d4aef5cb2",
+        "code": {
+          "coding": [
+            {
+              "code": "RBC",
+              "display": "ERITROCITOS",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "code": "10*6/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "10*6/uL",
+          "value": 5.2
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "ea66d375-dfe7-4863-9ed3-9d52135f7676",
+        "code": {
+          "coding": [
+            {
+              "code": "HGB",
+              "display": "HEMOGLOBINA",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "code": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "g/dL",
+          "value": 15.1
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "3ef3b4bb-e0a1-495a-8fed-43852055e30f",
+        "code": {
+          "coding": [
+            {
+              "code": "HCT",
+              "display": "HEMATOCRITO",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "%",
+          "value": 45.0
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "resource": {
+        "id": "13da71a2-79a9-425a-9d8b-a0a89ab3ea6e",
+        "code": {
+          "coding": [
+            {
+              "code": "PLT",
+              "display": "PLAQUETAS",
+              "system": "http://loinc.org"
+            }
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/12345"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "10*3/uL",
+          "value": 250.0
+        },
+        "resourceType": "Observation"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    }
+  ]
+}

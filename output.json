@@ -1,0 +1,87 @@
+{
+  "MSH": {
+    "SendingApplication": "LIS",
+    "SendingFacility": "LAB",
+    "ReceivingApplication": "HIS",
+    "ReceivingFacility": "HOSPITAL",
+    "DateTimeOfMessage": "202310081015",
+    "MessageType": "ORU^R01",
+    "MessageControlID": "MSG00001",
+    "ProcessingID": "P",
+    "VersionID": "2.3"
+  },
+  "PID": {
+    "PatientID": "12345^^^MRN^MR",
+    "PatientName": "PEREZ^JUAN^",
+    "DateOfBirth": "19800101",
+    "Sex": "M",
+    "Address": "123 CALLE PRINCIPAL^^CIUDAD^^12345^ESP"
+  },
+  "ORC": {
+    "OrderControl": "RE",
+    "PlacerOrderNumber": "",
+    "FillerOrderNumber": "987654",
+    "OrderStatus": "CM",
+    "DateTimeOfTransaction": "202310080800"
+  },
+  "OBR": {
+    "SetID": "1",
+    "PlacerOrderNumber": "987654",
+    "FillerOrderNumber": "",
+    "UniversalServiceIdentifier": "CBC^HEMOGRAMA COMPLETO",
+    "ObservationDateTime": "202310080900",
+    "OrderingProvider": "123456^RODRIGUEZ^ANA^^^DR"
+  },
+  "OBX": [
+    {
+      "SetID": "1",
+      "ValueType": "NM",
+      "ObservationIdentifier": "WBC^LEUCOCITOS",
+      "ObservationValue": "7.5",
+      "Units": "10*3/uL",
+      "ReferenceRange": "4.0-11.0",
+      "AbnormalFlags": "",
+      "ObservationResultStatus": "F"
+    },
+    {
+      "SetID": "2",
+      "ValueType": "NM",
+      "ObservationIdentifier": "RBC^ERITROCITOS",
+      "ObservationValue": "5.2",
+      "Units": "10*6/uL",
+      "ReferenceRange": "4.5-5.9",
+      "AbnormalFlags": "",
+      "ObservationResultStatus": "F"
+    },
+    {
+      "SetID": "3",
+      "ValueType": "NM",
+      "ObservationIdentifier": "HGB^HEMOGLOBINA",
+      "ObservationValue": "15.1",
+      "Units": "g/dL",
+      "ReferenceRange": "13.5-17.5",
+      "AbnormalFlags": "",
+      "ObservationResultStatus": "F"
+    },
+    {
+      "SetID": "4",
+      "ValueType": "NM",
+      "ObservationIdentifier": "HCT^HEMATOCRITO",
+      "ObservationValue": "45",
+      "Units": "%",
+      "ReferenceRange": "41-53",
+      "AbnormalFlags": "",
+      "ObservationResultStatus": "F"
+    },
+    {
+      "SetID": "5",
+      "ValueType": "NM",
+      "ObservationIdentifier": "PLT^PLAQUETAS",
+      "ObservationValue": "250",
+      "Units": "10*3/uL",
+      "ReferenceRange": "150-450",
+      "AbnormalFlags": "",
+      "ObservationResultStatus": "F"
+    }
+  ]
+}
